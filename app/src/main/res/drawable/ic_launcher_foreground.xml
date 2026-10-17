@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Aegis Shield Contour with Cyan Gradient -->
+    <path
+        android:pathData="M54,24 L76,33 C76,57 66,72 54,82 C42,72 32,57 32,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="24"
+                android:endX="76"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00D2FF" />
+                <item android:offset="1.0" android:color="#1A68D1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Shield Cavity in Dark Void -->
+    <path
+        android:fillColor="#0D121D"
+        android:pathData="M54,28.5 L72,36 C72,55 64,68 54,76.5 C44,68 36,55 36,36 Z" />
+
+    <!-- Navigation / Compass Star in Center (North Needle - Bright White & Cyan) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,35 L58.5,52.5 L54,50.5 Z" />
+    <path
+        android:fillColor="#00D2FF"
+        android:pathData="M54,35 L54,50.5 L49.5,52.5 Z" />
+
+    <!-- South Needle -->
+    <path
+        android:fillColor="#2F80ED"
+        android:pathData="M54,67 L49.5,55.5 L54,57 Z" />
+    <path
+        android:fillColor="#1B4D91"
+        android:pathData="M54,67 L54,57 L58.5,55.5 Z" />
+
+    <!-- East & West Needles -->
+    <path
+        android:fillColor="#80E5FF"
+        android:pathData="M70,54 L55.5,49.5 L57,54 Z" />
+    <path
+        android:fillColor="#00A3CC"
+        android:pathData="M70,54 L57,54 L55.5,58.5 Z" />
+    <path
+        android:fillColor="#5294E2"
+        android:pathData="M38,54 L51,54 L52.5,49.5 Z" />
+    <path
+        android:fillColor="#245DA6"
+        android:pathData="M38,54 L52.5,58.5 L51,54 Z" />
+
+    <!-- Central Cyber Core Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,51 A3,3 0 1,0 54,57 A3,3 0 1,0 54,51" />
+
+</vector>

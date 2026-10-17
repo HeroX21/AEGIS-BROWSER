@@ -1,0 +1,83 @@
+! Checksum: aegis-adguard-base-v1
+! Title: Aegis AdGuard Base & Tracking Protection
+! Version: 2026.10.1
+! Expires: 4 days
+! Description: Network blocking and privacy filter rules for Aegis Browser
+
+! --- Common Ad Networks and Tracking Domains ---
+||doubleclick.net^$third-party
+||googlesyndication.com^$third-party
+||googleadservices.com^$third-party
+||adnxs.com^$third-party
+||adsrvr.org^$third-party
+||advertising.com^$third-party
+||criteo.com^$third-party
+||criteo.net^$third-party
+||taboola.com^$third-party
+||outbrain.com^$third-party
+||moatads.com^$third-party
+||scorecardresearch.com^$third-party
+||quantserve.com^$third-party
+||amazon-adsystem.com^$third-party
+||rubiconproject.com^$third-party
+||pubmatic.com^$third-party
+||openx.net^$third-party
+||casalemedia.com^$third-party
+||adroll.com^$third-party
+||adcolony.com^$third-party
+||unityads.unity3d.com^$third-party
+||applovin.com^$third-party
+||vungle.com^$third-party
+||inmobi.com^$third-party
+||chartboost.com^$third-party
+||flurry.com^$third-party
+||branch.io^$third-party
+||adjust.com^$third-party
+||appsflyer.com^$third-party
+||hotjar.com^$third-party
+||clarity.ms^$third-party
+||mixpanel.com^$third-party
+||segment.io^$third-party
+||mouseflow.com^$third-party
+||crazyegg.com^$third-party
+||amplitude.com^$third-party
+||adservice.google.com^
+||pagead2.googlesyndication.com^
+
+! --- Popup, Popunder and Redirect Networks ---
+||popads.net^
+||popcash.net^
+||propellerads.com^
+||exoclick.com^
+||trafficjunky.com^
+||adcash.com^
+||zeroredirect.com^
+||clicksor.com^
+||revenuehits.com^
+||bidvertiser.com^
+||yllix.com^
+
+! --- Common Telemetry and Fingerprinting Paths ---
+/telemetry.js$script
+/analytics.js$script
+/gtm.js$script,third-party
+/fbevents.js$script,third-party
+/pixel.gif$image
+/beacon.js$script
+/collector?*
+/track?*
+/stats?*
+/ad_banner*
+
+! --- Cosmetic Element Hiding Selectors ---
+##.ad-container
+##.ad-wrapper
+##.adsbox
+##.ad-banner
+##.advertisement
+##.google-auto-placed
+##.sponsor-post
+###ad-slot
+###ad-banner
+###div-gpt-ad
+###sponsored-content

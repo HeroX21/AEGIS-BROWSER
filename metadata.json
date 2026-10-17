@@ -1,0 +1,6 @@
+{
+  "name": "Aegis Browser",
+  "description": "Production privacy-oriented web browser with built-in ad blocking, tracker protection, and Mozilla GeckoView rendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

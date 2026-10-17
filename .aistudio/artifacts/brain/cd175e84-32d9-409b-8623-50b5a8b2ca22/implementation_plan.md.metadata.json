@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for Aegis Browser, a production-grade Android web browser built with Mozilla GeckoView and Jetpack Compose. Details the browser session engine, multi-tab architecture, AdGuard Base & Tracking Protection filtering engine, popup and malicious redirect blocker, anti-adblock diagnostic compatibility layer, and local Room persistence for history and bookmarks under a dark privacy-first design system.",
+  "updatedAt": "2026-10-17T07:37:56.395766072Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0A0E17" />
+                <item android:offset="0.5" android:color="#121826" />
+                <item android:offset="1.0" android:color="#1A243B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Subtle circular radar grid glow -->
+    <path
+        android:strokeColor="#1E3A5F"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M54,24 A30,30 0 1,0 54,84 A30,30 0 1,0 54,24" />
+    <path
+        android:strokeColor="#132742"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M54,12 A42,42 0 1,0 54,96 A42,42 0 1,0 54,12" />
+</vector>
